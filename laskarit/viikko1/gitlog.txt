@@ -1,0 +1,113 @@
+commit 7ac7c752a28a55ff4dfe44b52441f8fc7570109a
+Author: Inkeri Ahlström <inkeri.ahlstrom@helsinki.fi>
+Date:   Mon Mar 13 18:07:13 2023 +0200
+
+    poisto ja nimenvaihto
+
+ tiedostoja/file2.txt                 | 0
+ tiedostoja/{file1.txt => file22.txt} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit fe129d95e8e446edd78a5c1558ef06ec1cf44e1f
+Author: Inkeri Ahlström <inkeri.ahlstrom@helsinki.fi>
+Date:   Mon Mar 13 18:02:39 2023 +0200
+
+    uusi kansio ja tiedostot
+
+ tiedostoja/file1.txt | 0
+ tiedostoja/file2.txt | 0
+ tiedostoja/file3.txt | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 6bbd46c3a068d295af271835c4df867308ea0cb0
+Author: Inkeri Ahlström <inkeri.ahlstrom@helsinki.fi>
+Date:   Mon Mar 13 17:57:35 2023 +0200
+
+    muokattu tiedostoja eka ja kolmas
+
+ eka.txt    | 6 +-----
+ kolmas.txt | 3 ++-
+ 2 files changed, 3 insertions(+), 6 deletions(-)
+
+commit 1465bc129feb0db2fbde44eb152dfc2cf8b6cbcc
+Author: Inkeri Ahlström <inkeri.ahlstrom@helsinki.fi>
+Date:   Mon Mar 13 17:55:25 2023 +0200
+
+    uusi nimi tiedostolle
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit fa11b5150f9c25a7691154731810b0879565aae3
+Author: Inkeri Ahlström <inkeri.ahlstrom@helsinki.fi>
+Date:   Mon Mar 13 17:54:11 2023 +0200
+
+    poistettu toinen
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 03b01923efe41cc58c8005e3e027cf9738769c52
+Author: Inkeri Ahlström <inkeri.ahlstrom@helsinki.fi>
+Date:   Mon Mar 13 17:51:23 2023 +0200
+
+    poistettu tekstiä ja lisätty
+
+ tiedosto.txt | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+commit 66e1f777f5201cdb641773a29281aab49d47efc3
+Author: Inkeri Ahlström <inkeri.ahlstrom@helsinki.fi>
+Date:   Mon Mar 13 17:49:26 2023 +0200
+
+    koirajuttu
+
+ tiedosto.txt | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+
+commit aa981d4283cc4f1c584a4c8328f40787ac9e91e1
+Author: Inkeri Ahlström <inkeri.ahlstrom@helsinki.fi>
+Date:   Mon Mar 13 15:30:59 2023 +0200
+
+    uusi hakemisto ja tiedosto
+
+ stuff/testi.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 3e2c3e74b0f2ed6ac8e964dd7d293c95a6a1d5cc
+Author: Inkeri Ahlström <inkeri.ahlstrom@helsinki.fi>
+Date:   Mon Mar 13 15:29:14 2023 +0200
+
+    muokattiin tokaa ja kolmatta
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit ba6374aab620e868be6f0b6259c024494f819ad8
+Author: Inkeri Ahlström <inkeri.ahlstrom@helsinki.fi>
+Date:   Mon Mar 13 15:27:24 2023 +0200
+
+    lisätään kolmas
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 9d1de8906df49c2dfb1672ad6c0172f398f09e13
+Author: Inkeri Ahlström <inkeri.ahlstrom@helsinki.fi>
+Date:   Mon Mar 13 15:17:19 2023 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit b44c4af9cb4b708ff6c6e7b989d6ce809a0fb07d
+Author: Inkeri Ahlström <inkeri.ahlstrom@helsinki.fi>
+Date:   Mon Mar 13 15:13:05 2023 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
