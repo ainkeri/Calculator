@@ -9,3 +9,5 @@ Muutos
 
 [vaatimusmaarittely.md](https://github.com/ainkeri/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
+[tuntikirjanpito.md](https://github.com/ainkeri/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
+
