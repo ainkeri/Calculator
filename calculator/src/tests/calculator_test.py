@@ -31,3 +31,15 @@ class TestCalculator(unittest.TestCase):
         self.calculator.add(3)
         self.calculator.divide(3)
         self.assertEqual(self.calculator.get_result(), 1)
+
+    
+    def test_divide_with_zero(self):
+        self.calculator.add(3)
+        self.calculator.divide(0)
+        self.assertEqual(self.calculator.get_result(), None)
+
+    
+    def test_clear(self):
+        self.calculator.clear()
+        self.assertEqual(self.calculator.get_result(), 0)
+        

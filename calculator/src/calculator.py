@@ -15,6 +15,7 @@ class Calculator:
         if num != 0:
             self.result /= num
         else:
+            self.result = None
             print("Error: Cannot divide by zero")
     
     def clear(self):
