@@ -7,3 +7,4 @@
 | 30.3. |  2   | simppelin laskin koodin luomista |
 | 31.3. |  3   | Tkinteriin tutustumista |
 | 3.4.  |  3   | Perusohjelman testausta, suunnittelun alkaminen ohjelman laajentamiseen Tkinterin avulla |
+| 4.4.  |      |            |
