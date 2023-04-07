@@ -17,13 +17,12 @@ class Calculator:
         else:
             self.result = None
             print("Error: Cannot divide by zero")
-    
+
     def clear(self):
         self.result = 0
 
     def get_result(self):
         return self.result
-
 
 if __name__ == "__main__":
     calc = Calculator()
