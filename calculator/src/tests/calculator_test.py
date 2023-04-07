@@ -1,6 +1,7 @@
 import unittest
 from calc.calculator import Calculator
 
+
 class TestCalculator(unittest.TestCase):
     def setUp(self):
         self.calculator = Calculator()
@@ -32,14 +33,11 @@ class TestCalculator(unittest.TestCase):
         self.calculator.divide(3)
         self.assertEqual(self.calculator.get_result(), 1)
 
-    
     def test_divide_with_zero(self):
         self.calculator.add(3)
         self.calculator.divide(0)
         self.assertEqual(self.calculator.get_result(), None)
 
-    
     def test_clear(self):
         self.calculator.clear()
         self.assertEqual(self.calculator.get_result(), 0)
-        
