@@ -1,8 +1,14 @@
+## Sovelluslogiikka
+
 ```mermaid
 sequenceDiagram
-    participant main
+    participant User
     participant Calculator
     participant CalculatorApp
-    main ->> new CalculatorApp()
-    CalculatorApp ->> new Calculator()
+    User ->> CalculatorApp: open CalculatorApp
+    CalculatorApp ->> Calculator: new Calculator()
+    User ->> CalculatorApp: button click
+    CalculatorApp ->> Calculator: does wanted method, (add, substract, multiply, divide, clear or get_result) 
+    Calculator ->> CalculatorApp: updates display
+  
 ```
