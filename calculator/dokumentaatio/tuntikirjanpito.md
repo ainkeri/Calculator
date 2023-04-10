@@ -10,3 +10,4 @@
 | 4.4.  |  3   | Ohjelman testausta, repositorion rakenteen hienostelua ja lisää suunnittelua oikean ohjelman suorittamiseen ja lisää lukemista Tkinteristä |
 | 7.4.  |  6   | Tktinkeriin tutustumista, sen sovittaminen ohjelmaan. Säätöä miten saada ohjelma käynnistymään |
 | 9.4.  |  3   | Laskimen näppäinten luontia  |
+|  yht  |  25  |                              |
