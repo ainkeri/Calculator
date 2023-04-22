@@ -11,3 +11,10 @@
 - main.py luonti
 
 
+## Viikko 5
+
+- Calculatorin muokkausta, jotta se toimisi yhdessä CalculatorAppin kanssa.
+- CalculatorAppin muokkaus niin, että laskuja voi nyt laskea edes jollain tavalla.
+
+
+
