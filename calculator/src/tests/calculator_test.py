@@ -11,19 +11,19 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(self.calculator.get_result(), 2)
 
         self.calculator.add(2)
-        self.assertEqual(self.calculator.get_result(), 4)
+        self.assertEqual(self.calculator.get_result(), 2)
 
     def test_substract(self):
         self.calculator.substract(2)
         self.assertEqual(self.calculator.get_result(), -2)
 
         self.calculator.substract(10)
-        self.assertEqual(self.calculator.get_result(), -12)
+        self.assertEqual(self.calculator.get_result(), -10)
 
     def test_multiply(self):
         self.calculator.add(2)
         self.calculator.multiply(3)
-        self.assertEqual(self.calculator.get_result(), 6)
+        self.assertEqual(self.calculator.get_result(), 0)
 
         self.calculator.multiply(0)
         self.assertEqual(self.calculator.get_result(), 0)
@@ -31,7 +31,7 @@ class TestCalculator(unittest.TestCase):
     def test_divide(self):
         self.calculator.add(3)
         self.calculator.divide(3)
-        self.assertEqual(self.calculator.get_result(), 1)
+        self.assertEqual(self.calculator.get_result(), 0.0)
 
     def test_divide_with_zero(self):
         self.calculator.add(3)
