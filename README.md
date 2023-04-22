@@ -4,10 +4,7 @@ Sovelluksen ideana on olla työpöytälaskin, jonka avulla käyttäjä voi laske
 
 ## Dokumentaatio
 
-* [Vaatimusmäärittely](https://github.com/ainkeri/ot-harjoitustyo/blob/2389a77f15eb63128dcde2bd70c33e8a907f2204/calculator/dokumentaatio/vaatimusmaarittely.md)
-
+* [Vaatimusmäärittely](calculator/dokumentaatio/vaatimusmaarittely.md)
 * [Tuntikirjanpito](calculator/dokumentaatio/tuntikirjanpito.md)
-
-* [Changelog](https://github.com/ainkeri/ot-harjoitustyo/blob/10d8bd75b1ad119e0b01fffc00ed99a53fd4dcf5/calculator/dokumentaatio/changelog.md)
-
-* [Arkkitehtuuri](https://github.com/ainkeri/ot-harjoitustyo/blob/edc8dc115a12583c219a0f90d2dda495c75d0d09/calculator/dokumentaatio/arkkitehtuuri.md)
+* [Changelog](calculator/dokumentaatio/changelog.md)
+* [Arkkitehtuuri](calculator/dokumentaatio/arkkitehtuuri.md)
