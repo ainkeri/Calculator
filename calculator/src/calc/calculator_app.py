@@ -46,20 +46,37 @@ class CalculatorApp:
                   command=lambda: self.button_click("/")).grid(row=4, column=3)
 
         tk.Button(self.root, text="C", height=2, width=6, font=(
-            "Arial", 18), command=self.calculator.clear()).grid(row=4, column=0)
+            "Arial", 18), command=lambda: self.button_click("C")).grid(row=4, column=0)
         tk.Button(self.root, text="=", height=2, width=6, font=(
-            "Arial", 18), command=self.calculator.clear()).grid(row=4, column=2)
+            "Arial", 18), command=lambda: self.button_click("=")).grid(row=4, column=2)
 
         self.root.mainloop()
 
-    # next function doesn't work yet
+
     def button_click(self, text):
         if text == "C":
             self.calculator.clear()
+            self.text.delete("1.0", tk.END)
         elif text == "=":
-            self.calculator.get_result()
+            if self.calculator.b == "+":
+                self.calculator.add(int(self.text.get("1.0", tk.END)))
+            if self.calculator.b == "-":
+                self.calculator.substract(int(self.text.get("1.0", tk.END)))
+            if self.calculator.b == "*":
+                self.calculator.multiply(int(self.text.get("1.0", tk.END)))
+            if self.calculator.b == "/":
+                self.calculator.divide(int(self.text.get("1.0", tk.END)))
+            
+            self.text.delete("1.0", tk.END)
+            self.text.insert("1.0", str(self.calculator.get_result()))
+            self.calculator.clear()
+            
+        elif text in ["+", "-", "*", "/"]:
+            self.calculator.a = int(self.text.get("1.0", tk.END))
+            self.calculator.b = text
+            self.text.delete("1.0", tk.END)
         else:
-            pass
+            self.text.insert(tk.END, text)
 
 
 app = CalculatorApp()
