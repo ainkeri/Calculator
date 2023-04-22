@@ -52,28 +52,27 @@ class CalculatorApp:
 
         self.root.mainloop()
 
-
     def button_click(self, text):
         if text == "C":
             self.calculator.clear()
             self.text.delete("1.0", tk.END)
         elif text == "=":
-            if self.calculator.b == "+":
+            if self.calculator.calculation == "+":
                 self.calculator.add(int(self.text.get("1.0", tk.END)))
-            if self.calculator.b == "-":
+            if self.calculator.calculation == "-":
                 self.calculator.substract(int(self.text.get("1.0", tk.END)))
-            if self.calculator.b == "*":
+            if self.calculator.calculation == "*":
                 self.calculator.multiply(int(self.text.get("1.0", tk.END)))
-            if self.calculator.b == "/":
+            if self.calculator.calculation == "/":
                 self.calculator.divide(int(self.text.get("1.0", tk.END)))
-            
+
             self.text.delete("1.0", tk.END)
             self.text.insert("1.0", str(self.calculator.get_result()))
             self.calculator.clear()
-            
+
         elif text in ["+", "-", "*", "/"]:
-            self.calculator.a = int(self.text.get("1.0", tk.END))
-            self.calculator.b = text
+            self.calculator.number = int(self.text.get("1.0", tk.END))
+            self.calculator.calculation = text
             self.text.delete("1.0", tk.END)
         else:
             self.text.insert(tk.END, text)
