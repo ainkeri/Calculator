@@ -14,4 +14,4 @@
 | 21.4. |  4   | Laskimen parantelua  |
 | 22.4. |  2   | Repositorion parantelua |
 | 23.4. |  2   | Testailua |
-|  yht  |  25  |                              |
+|  yht  |  36  |                              |
