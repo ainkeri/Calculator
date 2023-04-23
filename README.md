@@ -15,4 +15,5 @@ Sovelluksen ideana on olla työpöytälaskin, jonka avulla käyttäjä voi laske
 ### Ohjelman suorittaminen
 Ohjelma suoritetaan komennolla:
 
-`poetry run invoke start
+`poetry run invoke start`
+
