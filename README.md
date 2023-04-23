@@ -30,5 +30,6 @@ Testikattavuusraportti saadaan komennolla:
 ### Pylint
 Pylintin tarkistukset voidaan suorittaa komennolla:
 
-`poetry run invoke lint
+`poetry run invoke lint`
+
 
