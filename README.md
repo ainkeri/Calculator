@@ -8,3 +8,10 @@ Sovelluksen ideana on olla työpöytälaskin, jonka avulla käyttäjä voi laske
 * [Tuntikirjanpito](calculator/dokumentaatio/tuntikirjanpito.md)
 * [Changelog](calculator/dokumentaatio/changelog.md)
 * [Arkkitehtuuri](calculator/dokumentaatio/arkkitehtuuri.md)
+
+
+## Komentorivitoiminnot
+
+### Ohjelman suorittaminen
+
+poetry run invoke start
