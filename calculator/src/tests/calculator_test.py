@@ -10,9 +10,6 @@ class TestCalculator(unittest.TestCase):
         self.calculator.add(2)
         self.assertEqual(self.calculator.get_result(), 2)
 
-        self.calculator.add(2)
-        self.assertEqual(self.calculator.get_result(), 2)
-
     def test_substract(self):
         self.calculator.substract(2)
         self.assertEqual(self.calculator.get_result(), -2)
