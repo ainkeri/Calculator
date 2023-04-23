@@ -13,4 +13,5 @@
 | 19.4. |  3   | CalculatorAppin muokkausta, jotta laskin toimisi |
 | 21.4. |  4   | Laskimen parantelua  |
 | 22.4. |  2   | Repositorion parantelua |
+| 23.4. |  2   | Testailua |
 |  yht  |  25  |                              |
