@@ -17,4 +17,8 @@
 - CalculatorAppin muokkaus niin, että laskuja voi nyt laskea edes jollain tavalla.
 
 
+## Viikko 6
+
+- CalculatorApp koodin muokkausta palautteen saannin jälkeen. Nyt näppäinten luonti tapahtuu for loopin avulla.
+
 
