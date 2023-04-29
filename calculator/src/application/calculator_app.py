@@ -66,6 +66,3 @@ class CalculatorApp:
             self.text.delete("1.0", tk.END)
         else:
             self.text.insert(tk.END, text)
-
-
-app = CalculatorApp()
