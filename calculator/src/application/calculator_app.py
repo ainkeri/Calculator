@@ -45,24 +45,31 @@ class CalculatorApp:
     def button_click(self, text):
         if text == "C":
             self.calculator.clear()
+            self.calculation = ""
             self.text.delete("1.0", tk.END)
+
         elif text == "=":
-            if self.calculator.calculation == "+":
-                self.calculator.add(int(self.text.get("1.0", tk.END)))
-            if self.calculator.calculation == "-":
-                self.calculator.substract(int(self.text.get("1.0", tk.END)))
-            if self.calculator.calculation == "*":
-                self.calculator.multiply(int(self.text.get("1.0", tk.END)))
-            if self.calculator.calculation == "/":
-                self.calculator.divide(float(self.text.get("1.0", tk.END)))
-
-            self.text.delete("1.0", tk.END)
-            self.text.insert("1.0", str(self.calculator.get_result()))
-            self.calculator.clear()
-
+            if self.calculator.calculation:
+                self.calculator.num = int(self.text.get("1.0", tk.END))
+                if self.calculator.calculation == "+":
+                    self.calculator.add(self.calculator.num)
+                elif self.calculator.calculation == "-":
+                    self.calculator.substract(self.calculator.num)
+                elif self.calculator.calculation == "*":
+                    self.calculator.multiply(self.calculator.num)
+                elif self.calculator.calculation == "/":
+                    self.calculator.divide(float(self.calculator.num))
+        
+                self.text.delete("1.0", tk.END)
+                self.text.insert("1.0", str(self.calculator.get_result()))
+                self.calculator.clear()
+    
         elif text in ["+", "-", "*", "/"]:
+            if self.calculator.calculation:
+                self.button_click("=")
             self.calculator.number = int(self.text.get("1.0", tk.END))
             self.calculator.calculation = text
             self.text.delete("1.0", tk.END)
+
         else:
             self.text.insert(tk.END, text)
