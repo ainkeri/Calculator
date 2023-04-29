@@ -54,7 +54,7 @@ class CalculatorApp:
             if self.calculator.calculation == "*":
                 self.calculator.multiply(int(self.text.get("1.0", tk.END)))
             if self.calculator.calculation == "/":
-                self.calculator.divide(int(self.text.get("1.0", tk.END)))
+                self.calculator.divide(float(self.text.get("1.0", tk.END)))
 
             self.text.delete("1.0", tk.END)
             self.text.insert("1.0", str(self.calculator.get_result()))
