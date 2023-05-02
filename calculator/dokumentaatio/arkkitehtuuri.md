@@ -29,8 +29,19 @@ Luokan metodi "button_click" määrittelee jokaisen painikkeen toiminnallisuuden
 
 ## Sovelluslogiikka
 
-Sovelluksen looginen tietomalli muodostuu luokan [Calculator](calculator/src/calc/calculator.py) avulla. 
+Sovelluksen looginen tietomalli muodostuu luokan [Calculator](calculator/src/calc/calculator.py) avulla. Luokka tarjoaa käyttöliittymälle metodit, joiden avulla voidaan laskea haluttu lasku, tyhjentää tekstikenttä ja saada laskun vastaus. Luokan metodit:
 
+* add(num)
+* substract(num)
+* multiply(num)
+* divide(num)
+* clear()
+* get_result()
+
+
+## Päätoiminnallisuus
+
+Seuraava sekvenssikaavio näyttää Userin, Calculatorin ja CalculatorAppin keskeisen vuorovaikutuksen. Käyttäjä avaa sovelluksen:
 
 ```mermaid
 sequenceDiagram
@@ -45,3 +56,4 @@ sequenceDiagram
     Calculator ->> CalculatorApp: updates display
   
 ```
+`CalculatorApp` luo uuden `Calculator` objektin. `CalculatorApp` luo sovelluksen painikkeet, joita sovelluksen käyttäjä voi painaa. Käyttäjä voi painaa haluamiaan laskimen painikkeita. Riippuen, mitä käyttäjä painaa, niin `CalculatorApp` kutsuu `Calculatorin` haluttua metodia. `Calculator` suorittaa halutun metodin ja `CalculatorApp` päivittää halutun näkymän.
