@@ -10,11 +10,6 @@ class Calculator:
     def __init__(self):
         """
         Luokan konstruktori, joka luo numeron, laskutoimituksen ja vastauksen.
-
-        Args:
-            number: nykyinen numero laskimessa
-            calculation: laskutoimitus, jota suoritetaan
-            result: laskutoimituksen vastaus
         """
 
         self.number = 0
