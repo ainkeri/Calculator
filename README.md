@@ -33,7 +33,7 @@ Pylintin tarkistukset voidaan suorittaa komennolla:
 
 `poetry run invoke lint`
 
-### Releases
+## Releases
 
 * [Viikko 5](https://github.com/ainkeri/ot-harjoitustyo/releases/tag/viikko5)
 * [Viikko 6](https://github.com/ainkeri/ot-harjoitustyo/releases/tag/viikko6)
