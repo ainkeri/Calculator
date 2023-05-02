@@ -39,7 +39,7 @@ Pylintin tarkistukset voidaan suorittaa komennolla:
 
 ```bash
 poetry run invoke lint
-`
+```
 
 ## Releases
 
