@@ -10,6 +10,7 @@ flowchart LR
 
 ```
 
+Pakkaus application sisältää laskimen käyttöliittymän ja pakkaus calc laskimen sovelluslogiikan.
 
 
 ## Sovelluslogiikka
