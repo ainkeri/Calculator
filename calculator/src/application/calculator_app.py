@@ -17,6 +17,7 @@ class CalculatorApp:
         Luokan konstruktori, alustaa luokan ja määrittää graafisen käyttöliittymän.
         """
         self.calculator = Calculator()
+        self.calculation = ""
 
         self.root = tk.Tk()
         self.root.geometry("425x400")
@@ -56,7 +57,9 @@ class CalculatorApp:
         ]
 
         for button in buttons:
-            tk.Button(self.root, text=button["text"], height=2, width=6, font=("Arial", 18), command=lambda txt=button["text"]: self.button_click(txt)).grid(row=button["row"], column=button["column"])
+            tk.Button(self.root, text=button["text"], height=2, width=6
+            , font=("Arial", 18), command=lambda txt=button["text"]:
+            self.button_click(txt)).grid(row=button["row"], column=button["column"])
 
     def button_click(self, text):
         """
@@ -65,7 +68,6 @@ class CalculatorApp:
 
         if text == "C":
             self.calculator.clear()
-            self.calculation = ""
             self.text.delete("1.0", tk.END)
 
         elif text == "=":
@@ -79,11 +81,11 @@ class CalculatorApp:
                     self.calculator.multiply(self.calculator.num)
                 elif self.calculator.calculation == "/":
                     self.calculator.divide(float(self.calculator.num))
-        
+
                 self.text.delete("1.0", tk.END)
                 self.text.insert("1.0", str(self.calculator.get_result()))
                 self.calculator.clear()
-    
+
         elif text in ["+", "-", "*", "/"]:
             if self.calculator.calculation:
                 self.button_click("=")

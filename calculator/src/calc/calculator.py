@@ -48,7 +48,8 @@ class Calculator:
 
     def divide(self, num):
         """
-        Jakaa nykyisen numeron halutulla numerolla. Jos numero on 0, jako ei onnistu ja tulee virheviesti.
+        Jakaa nykyisen numeron halutulla numerolla. Jos numero on 0,
+        jako ei onnistu ja tulee virheviesti.
 
         Args:
             num: numero, jolla jaetaan nykyinen numero.
