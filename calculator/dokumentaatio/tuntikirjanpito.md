@@ -16,4 +16,6 @@
 | 23.4. |  2   | Testailua |
 | 28.4. |  3   | Koodin parantelua |
 | 29.4. |  3   | Koodin parantelua |
-|  yht  |  36  |                              |
+| 30.4. |  2   | Testausta |
+|  2.5  |  3   | Ohjelman dokumentaatio, arkkitehtuuri |
+|  yht  |  50  |                              |
