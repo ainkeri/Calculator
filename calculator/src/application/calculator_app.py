@@ -3,7 +3,19 @@ from src.calc.calculator import Calculator
 
 
 class CalculatorApp:
+    """
+    Luokka, joka käyttää tkinteriä ja Calculator luokkaa suorittaakseen laskutoimituksia.
+    
+    Attributes:
+        calculator: uusi Calculator()
+        root: sovelluksen tkinter juuri
+        text: tkinterin teksti, joka näyttää käyttäjän syötteet ja laskujen tulokset 
+    """
+
     def __init__(self):
+        """
+        Luokan konstruktori, alustaa luokan ja määrittää graafisen käyttöliittymän.
+        """
         self.calculator = Calculator()
 
         self.root = tk.Tk()
@@ -20,6 +32,10 @@ class CalculatorApp:
         self.root.mainloop()
 
     def create_button(self):
+        """
+        Metodi luo laskimen painikkeet ja sijoittaa ne laskimen graafiseen käyttöliittymään.
+        """
+
         buttons = [
         {"text": "1", "row": 1, "column": 0},
         {"text": "2", "row": 1, "column": 1},
@@ -43,6 +59,10 @@ class CalculatorApp:
             tk.Button(self.root, text=button["text"], height=2, width=6, font=("Arial", 18), command=lambda txt=button["text"]: self.button_click(txt)).grid(row=button["row"], column=button["column"])
 
     def button_click(self, text):
+        """
+        Metodi luo tapahtuman eri näppäimille. Päivittää laskinta riippuen käyttäjän syötteestä.
+        """
+
         if text == "C":
             self.calculator.clear()
             self.calculation = ""
