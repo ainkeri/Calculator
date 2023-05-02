@@ -16,22 +16,30 @@ Sovelluksen ideana on olla työpöytälaskin, jonka avulla käyttäjä voi laske
 ### Ohjelman suorittaminen
 Ohjelma suoritetaan komennolla:
 
-`poetry run invoke start`
+```bash
+poetry run invoke start
+```
 
 ### Testaaminen
 Testit suoritetaan komennolla:
 
-`poetry run invoke test`
+```bash
+poetry run invoke test
+```
 
 ### Testikattavuus
 Testikattavuusraportti saadaan komennolla:
 
-`poetry run invoke coverage-report`
+```bash
+poetry run invoke coverage-report
+```
 
 ### Pylint
 Pylintin tarkistukset voidaan suorittaa komennolla:
 
-`poetry run invoke lint`
+```bash
+poetry run invoke lint
+`
 
 ## Releases
 
