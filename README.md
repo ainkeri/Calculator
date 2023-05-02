@@ -4,6 +4,7 @@ Sovelluksen ideana on olla työpöytälaskin, jonka avulla käyttäjä voi laske
 
 ## Dokumentaatio
 
+* [Käyttöohje](calculator/dokumentaatio/kayttoohje.md)
 * [Vaatimusmäärittely](calculator/dokumentaatio/vaatimusmaarittely.md)
 * [Tuntikirjanpito](calculator/dokumentaatio/tuntikirjanpito.md)
 * [Changelog](calculator/dokumentaatio/changelog.md)
