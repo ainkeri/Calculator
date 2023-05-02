@@ -21,5 +21,6 @@
 
 - CalculatorApp koodin muokkausta palautteen saannin jälkeen. Nyt näppäinten luonti tapahtuu for loopin avulla.
 - Nyt myös voi laskea pitempiä laskuja putkeen eikä vain kahta numeroa, esim. 1+1+1 antaa nyt vastaukseksi 3, ei 2.
+- Dokumentaation luontia.
 
 
