@@ -5,10 +5,12 @@
 Koodin pakkausrakenne:
 
 ```mermaid
-classDiagram
-    Calculator <|-- CalculatorApp
+flowchart LR
+    application-->calc
 
 ```
+
+
 
 ## Sovelluslogiikka
 
