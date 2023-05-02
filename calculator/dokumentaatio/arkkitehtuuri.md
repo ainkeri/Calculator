@@ -8,6 +8,8 @@ Koodin pakkausrakenne:
 classDiagram
     Calculator <|-- CalculatorApp
 
+```
+
 ## Sovelluslogiikka
 
 Laskin muodostuu kahdesta luokasta [Calculator](calculator/src/calc/calculator.py) ja [CalculatorApp](calculator/src/application/calculator_app.py):
