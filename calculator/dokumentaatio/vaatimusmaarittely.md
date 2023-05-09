@@ -9,7 +9,6 @@ Sovelluksen tarkoitus on olla laskin, jolla käyttäjä voi laskea laskutoimituk
 - Käyttäjä voi laskea laskuja.
 - Laskuissa voi käyttää useampia laskutoimituksia.
 - Toimimattomat laskut antavat vastaukseksi Error, esim. nollalla jakaminen
-- Laskin tunnistaa laskujärjestyksen.
 - Laskin toimii painamalla hiirellä näytöllä olevia näppäimiä.
 
 ## Jatkokehitysideoita
