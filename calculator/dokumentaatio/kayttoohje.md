@@ -14,3 +14,7 @@ Käynnistä ohjelma komennolla:
 poetry run invoke start
 ```
 
+## Käyttäminen
+
+Kun ohjelma suoritetaan, näytölle ilmestyy laskinikkuna. Laskin toimii niin, että sen painikkeita painetaan hiiren avulla. Painamalla "C" näppäintä laskin tyhjenee. Painamalla "=" näppäintä saat laskutoimituksen vastauksen. 
+
