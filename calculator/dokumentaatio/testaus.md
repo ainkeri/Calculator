@@ -9,3 +9,4 @@ Ohjelman testaus testaa vain sovelluslogiikkaa, eikä käyttöliittymää. Syyn�
 ## Testikattavuus
 
 Testikattavuus on vain 27%, koska käyttöliittymän testaus on 0%.
+![image](https://github.com/ainkeri/Calculator/assets/114941561/f6882b61-96fd-4e9e-bcba-97c3367e4ffb)
