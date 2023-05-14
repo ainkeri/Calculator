@@ -46,5 +46,6 @@ poetry run invoke lint
 
 * [Viikko 5](https://github.com/ainkeri/ot-harjoitustyo/releases/tag/viikko5)
 * [Viikko 6](https://github.com/ainkeri/ot-harjoitustyo/releases/tag/viikko6)
+* [Loppupalautus](https://github.com/ainkeri/Calculator/releases/tag/loppupalautus)
 
 
