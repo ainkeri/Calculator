@@ -1,6 +1,6 @@
 # Testausdokumentti
 
-Ohjelman testaus testaa vain sovelluslogiikkaa, eikä käyttöliittymää. Syynä on, että enn osannut testata käyttöliittymää. Eli testaus on suppea.
+Ohjelman testaus testaa vain sovelluslogiikkaa, eikä käyttöliittymää. Syynä on, että en osannut testata käyttöliittymää. Eli testaus on suppea.
 
 ## Sovelluslogiikka
 
