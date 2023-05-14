@@ -15,7 +15,7 @@ Pakkaus application sisältää laskimen käyttöliittymän ja pakkaus calc lask
 
 ## Käyttöliittymä
 
-Laskimen ainoasta näkymästä vastaa [CalculatorApp](calculator/src/application/calculator_app.py)-luokka. Luokka luo uuden Calculator-objektin ja määrittää graafisen käyttöliittymän (GUI). Graafinen käyttöliittymä määritellään käyttäen "tkinter" kirjaston "Tk" luokkaa, joka luo sovelluksen pääikkunan (laskimen).
+Laskimen ainoasta näkymästä vastaa [CalculatorApp](Calculator/calculator/src/application/calculator_app.py)-luokka. Luokka luo uuden Calculator-objektin ja määrittää graafisen käyttöliittymän (GUI). Graafinen käyttöliittymä määritellään käyttäen "tkinter" kirjaston "Tk" luokkaa, joka luo sovelluksen pääikkunan (laskimen).
 
 CalculatorAppin metodi "create_button" luo laskimen painikkeet, jotka ovat jokainen määritelty sanakirjoissaan. Painikkeiden sanakirjat ovat taas yhdessä listassa nimeltä "buttons". Metodi iteroi listan läpi for loopin avulla ja luo "Button"-objektin jokaiselle painikkeelle. Painikkeen sijainti sovelluksen ikkunassa määritellään "grid"-metodin avulla.
 
