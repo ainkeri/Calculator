@@ -18,4 +18,6 @@
 | 29.4. |  3   | Koodin parantelua |
 | 30.4. |  2   | Testausta |
 |  2.5  |  3   | Ohjelman dokumentaatio, arkkitehtuuri |
+|  7.5. |  2  | Testauksen parantelun kokeilua |
+| 14.5. |  3  | Loppusilaukset, dokumentaatiota enimmäkseen |
 |  yht  |  50  |                              |
