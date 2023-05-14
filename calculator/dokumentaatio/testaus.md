@@ -4,7 +4,7 @@ Ohjelman testaus testaa vain sovelluslogiikkaa, eikä käyttöliittymää. Syyn�
 
 ## Sovelluslogiikka
 
-`Calculator`-luokkaa, joka vastaa laskimen sovelluslogiikasta, testataan [TestCalculator](calculator/src/tests/calculator_test.py)-testiluokan avulla. `TestCalculator` alustaa testauksessaan calculatorin, ja testaa eri funktioiden avulla toimiiko `Calculator`. Näitä ovat esimerkiksi eri laskutoimitukset, nollalla jakaminen, laskukentän tyhjentäminen ja vastauksen saaminen.
+`Calculator`-luokkaa, joka vastaa laskimen sovelluslogiikasta, testataan [TestCalculator](https://github.com/ainkeri/Calculator/blob/9764731b796d57addeb4df23f99f9f1f46d76f92/calculator/src/tests/calculator_test.py)-testiluokan avulla. `TestCalculator` alustaa testauksessaan calculatorin, ja testaa eri funktioiden avulla toimiiko `Calculator`. Näitä ovat esimerkiksi eri laskutoimitukset, nollalla jakaminen, laskukentän tyhjentäminen ja vastauksen saaminen.
 
 ## Testikattavuus
 
