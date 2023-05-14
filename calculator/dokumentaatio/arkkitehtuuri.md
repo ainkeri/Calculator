@@ -29,7 +29,7 @@ Luokan metodi "button_click" määrittelee jokaisen painikkeen toiminnallisuuden
 
 ## Sovelluslogiikka
 
-Sovelluksen looginen tietomalli muodostuu luokan [Calculator](calculator/src/calc/calculator.py) avulla. Luokka tarjoaa käyttöliittymälle metodit, joiden avulla voidaan laskea haluttu lasku, tyhjentää tekstikenttä ja saada laskun vastaus. Luokan metodit:
+Sovelluksen looginen tietomalli muodostuu luokan [Calculator](https://github.com/ainkeri/Calculator/blob/9aa9e8382245fa6b6de5b554122f26be5ef1a902/calculator/src/calc/calculator.py) avulla. Luokka tarjoaa käyttöliittymälle metodit, joiden avulla voidaan laskea haluttu lasku, tyhjentää tekstikenttä ja saada laskun vastaus. Luokan metodit:
 
 * add(num)
 * substract(num)
